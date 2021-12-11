@@ -4,7 +4,7 @@
 # Cookbook Name:: opsworks_ruby
 # Recipe:: setup
 #
-
+Chef::Log.info("got to the first step")
 include_recipe 'apt'
 
 prepare_recipe
